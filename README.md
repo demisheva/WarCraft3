@@ -24,7 +24,7 @@
 
 <h3>RESTRICTIONS</h3>
 <ul>
-    <li>Editing index.html is forbidden<li>
-    <li>You don’t need to spend much time on implementing design of the application<li>
-    <li>You need to use only classes<li>
+    <li>Editing index.html is forbidden</li>
+    <li>You don’t need to spend much time on implementing design of the application</li>
+    <li>You need to use only classes</li>
 </ul>
