@@ -1,0 +1,60 @@
+body{
+    font-size: 18px;
+    margin: 2vh 10vw;
+}
+header{
+    text-align: center;
+    font-size: 3rem;
+    color: #0a745b;
+    margin: 2vh auto;
+}
+.start,
+.fight{
+    display: block;
+    margin: 4vh auto;
+}
+
+.characters-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    align-items: stretch;
+    justify-items: stretch;
+}
+.battle-field{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    align-items: stretch;
+    justify-items: stretch;
+}
+.battle-field p{
+    grid-column-end: 3;
+    grid-column-start: 1;
+    text-align: center;
+
+}
+.characters-list div,
+.battle-field div{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+}
+.characters-list div:hover{
+    background: #dadada;
+
+}
+button{
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    background: #0a745b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
